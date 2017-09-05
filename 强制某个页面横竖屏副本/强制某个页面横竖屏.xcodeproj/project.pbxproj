@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71518531F0CB2B7006A1E99 /* ScreenDirectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D71518521F0CB2B7006A1E99 /* ScreenDirectionManager.m */; };
+		D7C5AFE31D20D042008CB5FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5AFE21D20D042008CB5FC /* main.m */; };
+		D7C5AFE61D20D042008CB5FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5AFE51D20D042008CB5FC /* AppDelegate.m */; };
+		D7C5AFE91D20D042008CB5FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5AFE81D20D042008CB5FC /* ViewController.m */; };
+		D7C5AFEC1D20D042008CB5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C5AFEA1D20D042008CB5FC /* Main.storyboard */; };
+		D7C5AFEE1D20D042008CB5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C5AFED1D20D042008CB5FC /* Assets.xcassets */; };
+		D7C5AFF11D20D042008CB5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C5AFEF1D20D042008CB5FC /* LaunchScreen.storyboard */; };
+		D7C5AFFC1D20D042008CB5FC /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5AFFB1D20D042008CB5FC /* _________Tests.m */; };
+		D7C5B0071D20D042008CB5FC /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5B0061D20D042008CB5FC /* _________UITests.m */; };
+		D7C5B01A1D20D204008CB5FC /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5B0151D20D204008CB5FC /* AViewController.m */; };
+		D7C5B01B1D20D204008CB5FC /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C5B0171D20D204008CB5FC /* NavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C5AFF81D20D042008CB5FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C5AFD61D20D041008CB5FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C5AFDD1D20D041008CB5FC;
+			remoteInfo = "强制某个页面横竖屏";
+		};
+		D7C5B0031D20D042008CB5FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C5AFD61D20D041008CB5FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C5AFDD1D20D041008CB5FC;
+			remoteInfo = "强制某个页面横竖屏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D71518511F0CB2B7006A1E99 /* ScreenDirectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenDirectionManager.h; sourceTree = "<group>"; };
+		D71518521F0CB2B7006A1E99 /* ScreenDirectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenDirectionManager.m; sourceTree = "<group>"; };
+		D7C5AFDE1D20D041008CB5FC /* 强制某个页面横竖屏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "强制某个页面横竖屏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C5AFE21D20D042008CB5FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7C5AFE41D20D042008CB5FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7C5AFE51D20D042008CB5FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7C5AFE71D20D042008CB5FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7C5AFE81D20D042008CB5FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7C5AFEB1D20D042008CB5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7C5AFED1D20D042008CB5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7C5AFF01D20D042008CB5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7C5AFF21D20D042008CB5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C5AFF71D20D042008CB5FC /* 强制某个页面横竖屏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "强制某个页面横竖屏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C5AFFB1D20D042008CB5FC /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		D7C5AFFD1D20D042008CB5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C5B0021D20D042008CB5FC /* 强制某个页面横竖屏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "强制某个页面横竖屏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C5B0061D20D042008CB5FC /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		D7C5B0081D20D042008CB5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C5B0141D20D204008CB5FC /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		D7C5B0151D20D204008CB5FC /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		D7C5B0161D20D204008CB5FC /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		D7C5B0171D20D204008CB5FC /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C5AFDB1D20D041008CB5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C5AFF41D20D042008CB5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C5AFFF1D20D042008CB5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7C5AFD51D20D041008CB5FC = {
+			isa = PBXGroup;
+			children = (
+				D7C5AFE01D20D042008CB5FC /* 强制某个页面横竖屏 */,
+				D7C5AFFA1D20D042008CB5FC /* 强制某个页面横竖屏Tests */,
+				D7C5B0051D20D042008CB5FC /* 强制某个页面横竖屏UITests */,
+				D7C5AFDF1D20D041008CB5FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C5AFDF1D20D041008CB5FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5AFDE1D20D041008CB5FC /* 强制某个页面横竖屏.app */,
+				D7C5AFF71D20D042008CB5FC /* 强制某个页面横竖屏Tests.xctest */,
+				D7C5B0021D20D042008CB5FC /* 强制某个页面横竖屏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C5AFE01D20D042008CB5FC /* 强制某个页面横竖屏 */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5AFE41D20D042008CB5FC /* AppDelegate.h */,
+				D7C5AFE51D20D042008CB5FC /* AppDelegate.m */,
+				D7C5AFE71D20D042008CB5FC /* ViewController.h */,
+				D7C5AFE81D20D042008CB5FC /* ViewController.m */,
+				D7C5AFEA1D20D042008CB5FC /* Main.storyboard */,
+				D7C5B0141D20D204008CB5FC /* AViewController.h */,
+				D7C5B0151D20D204008CB5FC /* AViewController.m */,
+				D7C5B0161D20D204008CB5FC /* NavigationViewController.h */,
+				D7C5B0171D20D204008CB5FC /* NavigationViewController.m */,
+				D7C5AFED1D20D042008CB5FC /* Assets.xcassets */,
+				D7C5AFEF1D20D042008CB5FC /* LaunchScreen.storyboard */,
+				D7C5AFF21D20D042008CB5FC /* Info.plist */,
+				D7C5AFE11D20D042008CB5FC /* Supporting Files */,
+				D71518511F0CB2B7006A1E99 /* ScreenDirectionManager.h */,
+				D71518521F0CB2B7006A1E99 /* ScreenDirectionManager.m */,
+			);
+			path = "强制某个页面横竖屏";
+			sourceTree = "<group>";
+		};
+		D7C5AFE11D20D042008CB5FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5AFE21D20D042008CB5FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7C5AFFA1D20D042008CB5FC /* 强制某个页面横竖屏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5AFFB1D20D042008CB5FC /* _________Tests.m */,
+				D7C5AFFD1D20D042008CB5FC /* Info.plist */,
+			);
+			path = "强制某个页面横竖屏Tests";
+			sourceTree = "<group>";
+		};
+		D7C5B0051D20D042008CB5FC /* 强制某个页面横竖屏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5B0061D20D042008CB5FC /* _________UITests.m */,
+				D7C5B0081D20D042008CB5FC /* Info.plist */,
+			);
+			path = "强制某个页面横竖屏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C5AFDD1D20D041008CB5FC /* 强制某个页面横竖屏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C5B00B1D20D042008CB5FC /* Build configuration list for PBXNativeTarget "强制某个页面横竖屏" */;
+			buildPhases = (
+				D7C5AFDA1D20D041008CB5FC /* Sources */,
+				D7C5AFDB1D20D041008CB5FC /* Frameworks */,
+				D7C5AFDC1D20D041008CB5FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "强制某个页面横竖屏";
+			productName = "强制某个页面横竖屏";
+			productReference = D7C5AFDE1D20D041008CB5FC /* 强制某个页面横竖屏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C5AFF61D20D042008CB5FC /* 强制某个页面横竖屏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C5B00E1D20D042008CB5FC /* Build configuration list for PBXNativeTarget "强制某个页面横竖屏Tests" */;
+			buildPhases = (
+				D7C5AFF31D20D042008CB5FC /* Sources */,
+				D7C5AFF41D20D042008CB5FC /* Frameworks */,
+				D7C5AFF51D20D042008CB5FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C5AFF91D20D042008CB5FC /* PBXTargetDependency */,
+			);
+			name = "强制某个页面横竖屏Tests";
+			productName = "强制某个页面横竖屏Tests";
+			productReference = D7C5AFF71D20D042008CB5FC /* 强制某个页面横竖屏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7C5B0011D20D042008CB5FC /* 强制某个页面横竖屏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C5B0111D20D042008CB5FC /* Build configuration list for PBXNativeTarget "强制某个页面横竖屏UITests" */;
+			buildPhases = (
+				D7C5AFFE1D20D042008CB5FC /* Sources */,
+				D7C5AFFF1D20D042008CB5FC /* Frameworks */,
+				D7C5B0001D20D042008CB5FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C5B0041D20D042008CB5FC /* PBXTargetDependency */,
+			);
+			name = "强制某个页面横竖屏UITests";
+			productName = "强制某个页面横竖屏UITests";
+			productReference = D7C5B0021D20D042008CB5FC /* 强制某个页面横竖屏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C5AFD61D20D041008CB5FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = vcyber;
+				TargetAttributes = {
+					D7C5AFDD1D20D041008CB5FC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = M974WD5VWM;
+						ProvisioningStyle = Manual;
+					};
+					D7C5AFF61D20D042008CB5FC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E6QGCL2NKG;
+						TestTargetID = D7C5AFDD1D20D041008CB5FC;
+					};
+					D7C5B0011D20D042008CB5FC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E6QGCL2NKG;
+						TestTargetID = D7C5AFDD1D20D041008CB5FC;
+					};
+				};
+			};
+			buildConfigurationList = D7C5AFD91D20D041008CB5FC /* Build configuration list for PBXProject "强制某个页面横竖屏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C5AFD51D20D041008CB5FC;
+			productRefGroup = D7C5AFDF1D20D041008CB5FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C5AFDD1D20D041008CB5FC /* 强制某个页面横竖屏 */,
+				D7C5AFF61D20D042008CB5FC /* 强制某个页面横竖屏Tests */,
+				D7C5B0011D20D042008CB5FC /* 强制某个页面横竖屏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C5AFDC1D20D041008CB5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C5AFF11D20D042008CB5FC /* LaunchScreen.storyboard in Resources */,
+				D7C5AFEE1D20D042008CB5FC /* Assets.xcassets in Resources */,
+				D7C5AFEC1D20D042008CB5FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C5AFF51D20D042008CB5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C5B0001D20D042008CB5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C5AFDA1D20D041008CB5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C5B01A1D20D204008CB5FC /* AViewController.m in Sources */,
+				D7C5AFE91D20D042008CB5FC /* ViewController.m in Sources */,
+				D7C5B01B1D20D204008CB5FC /* NavigationViewController.m in Sources */,
+				D7C5AFE61D20D042008CB5FC /* AppDelegate.m in Sources */,
+				D7C5AFE31D20D042008CB5FC /* main.m in Sources */,
+				D71518531F0CB2B7006A1E99 /* ScreenDirectionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C5AFF31D20D042008CB5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C5AFFC1D20D042008CB5FC /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C5AFFE1D20D042008CB5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C5B0071D20D042008CB5FC /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7C5AFF91D20D042008CB5FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C5AFDD1D20D041008CB5FC /* 强制某个页面横竖屏 */;
+			targetProxy = D7C5AFF81D20D042008CB5FC /* PBXContainerItemProxy */;
+		};
+		D7C5B0041D20D042008CB5FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C5AFDD1D20D041008CB5FC /* 强制某个页面横竖屏 */;
+			targetProxy = D7C5B0031D20D042008CB5FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7C5AFEA1D20D042008CB5FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C5AFEB1D20D042008CB5FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7C5AFEF1D20D042008CB5FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C5AFF01D20D042008CB5FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C5B0091D20D042008CB5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C5B00A1D20D042008CB5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C5B00C1D20D042008CB5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M974WD5VWM;
+				INFOPLIST_FILE = "强制某个页面横竖屏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fly-Sunshine-J.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8a0955d-bb6e-423d-8855-3b5a13f35ed4";
+				PROVISIONING_PROFILE_SPECIFIER = CYW_ALL_APP_Development;
+			};
+			name = Debug;
+		};
+		D7C5B00D1D20D042008CB5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "强制某个页面横竖屏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fly-Sunshine-J.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7C5B00F1D20D042008CB5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "强制某个页面横竖屏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fly-Sunshine-J.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/强制某个页面横竖屏.app/强制某个页面横竖屏";
+			};
+			name = Debug;
+		};
+		D7C5B0101D20D042008CB5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "强制某个页面横竖屏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fly-Sunshine-J.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/强制某个页面横竖屏.app/强制某个页面横竖屏";
+			};
+			name = Release;
+		};
+		D7C5B0121D20D042008CB5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "强制某个页面横竖屏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fly-Sunshine-J.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "强制某个页面横竖屏";
+			};
+			name = Debug;
+		};
+		D7C5B0131D20D042008CB5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "强制某个页面横竖屏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fly-Sunshine-J.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "强制某个页面横竖屏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C5AFD91D20D041008CB5FC /* Build configuration list for PBXProject "强制某个页面横竖屏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C5B0091D20D042008CB5FC /* Debug */,
+				D7C5B00A1D20D042008CB5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C5B00B1D20D042008CB5FC /* Build configuration list for PBXNativeTarget "强制某个页面横竖屏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C5B00C1D20D042008CB5FC /* Debug */,
+				D7C5B00D1D20D042008CB5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C5B00E1D20D042008CB5FC /* Build configuration list for PBXNativeTarget "强制某个页面横竖屏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C5B00F1D20D042008CB5FC /* Debug */,
+				D7C5B0101D20D042008CB5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C5B0111D20D042008CB5FC /* Build configuration list for PBXNativeTarget "强制某个页面横竖屏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C5B0121D20D042008CB5FC /* Debug */,
+				D7C5B0131D20D042008CB5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7C5AFD61D20D041008CB5FC /* Project object */;
+}
